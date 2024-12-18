@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Routes, Route, Navigate} from "react-router-dom"
 import "./App.css"
-import LandingPage from "./stores/pages/landingPage";
+import LandingPage from "./stores/pages/LandingPage"
 import Kitchenpage from "./stores/pages/Kitchenpage"
 import Mobilepage from "./stores/pages/Mobilepage";
 import Computerpage from "./stores/pages/Computerpage";

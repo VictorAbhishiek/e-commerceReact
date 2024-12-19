@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import { useState } from "react";
 import { Routes, Route, Navigate} from "react-router-dom"
 import "./App.css"
@@ -56,7 +56,6 @@ const App = () => {
         <Route path="/fridge/:id" element ={isAuthenticated ? <Fridgesingle />: <Navigate to= "/login" />} />
         <Route path="/furniture/:id" element ={isAuthenticated ? <Furnituresingle />: <Navigate to= "/login" />} />
         <Route path="/kitchen/:id" element = {isAuthenticated ? <Kitchensingle />: <Navigate to= "/login" />} />
-        
       </Routes>
     </div>
    )
